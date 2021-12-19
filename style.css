@@ -1,39 +1,35 @@
-body
-{
+body{
     background-size:cover;
 }
 .heading
 {
-    font-size:14px;
+    font-size:23px;
     width:100%;
-    margin: 0px;
+    margin:0;
 }
-
-
-canvas{
-    border: 5px solid white;
-    border-radius: 20px;
-}
-.copy_right_footer
-{
-    position:fixed;
-    color:white;
-    bottom: 0;
-    width:100%;
-    background-color: grey;
-    line-height: 3;
-    text-align:center;
-}
-#text_object_name
-{
-    font-size: 18px;
-    color:black
-}
-#object_input
+.object_name_input_box
 {
     width:250px;
+    text-align:center;
 }
-
-
-
-
+.note
+{
+    color:black;
+    font-size:13px;
+}
+#start, #number_of_objects, #status
+{
+    font-size:18px;
+}
+canvas
+{
+  border: 2px solid white;
+  border-radius:10px;
+  margin-top:120px;
+  box-shadow:10px 10px white;
+}
+#start
+{
+    width:70px;
+    border-radius:25px;
+}
