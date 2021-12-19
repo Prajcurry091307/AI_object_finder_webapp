@@ -1,0 +1,39 @@
+body
+{
+    background-size:cover;
+}
+.heading
+{
+    font-size:14px;
+    width:100%;
+    margin: 0px;
+}
+
+
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+}
+.copy_right_footer
+{
+    position:fixed;
+    color:white;
+    bottom: 0;
+    width:100%;
+    background-color: grey;
+    line-height: 3;
+    text-align:center;
+}
+#text_object_name
+{
+    font-size: 18px;
+    color:black
+}
+#object_input
+{
+    width:250px;
+}
+
+
+
+
